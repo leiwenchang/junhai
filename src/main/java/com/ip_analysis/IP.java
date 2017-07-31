@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-class IP {
+public class IP {
 
     public static String randomIp() {
         Random r = new Random();
@@ -43,7 +43,7 @@ class IP {
         System.out.println(Arrays.toString(IP.find("118.28.8.8")));
     }
 
-    public static boolean enableFileWatch = false;
+    private static boolean enableFileWatch = false;
 
     private static int offset;
     private static int[] index = new int[256];
