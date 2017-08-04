@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rocketmq-spark">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../incubator-rocketmq-externals/rocketmq-spark/out/artifacts/rocketmq_spark/rocketmq-spark.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
